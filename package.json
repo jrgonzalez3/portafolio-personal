@@ -1,5 +1,5 @@
 {
-  "name": "hrpaul",
+  "name": "jrgonzalez",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -35,5 +35,5 @@
     "vue-template-compiler": "^2.6.11"
   },
   "keywords": [],
-  "description": ""
+  "description": "Sitio web tipo portafolio, Cv o Curriculum"
 }

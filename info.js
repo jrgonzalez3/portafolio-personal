@@ -1,467 +1,553 @@
 let info = {
-  name: "Hrishikesh Paul",
-  logo_name: "paul",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  name: "Justo R. González Chávez",
+  logo_name: "Justo González",
+  flat_picture: require("./src/assets/fotoperfil.png"),
   config: {
     use_cookies: true,
     navbar: {
-      blur: false
-    }
+      blur: false,
+    },
   },
   description:
-    "A second year Computer Science graduate student at Indiana University Bloomington with an interest in Software Development, UX Design and Artificial Intelligence - and seeking exciting opportunities related to the same.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I would bring to table a wide range of software skills, ranging from design and development to writing scripts for intelligent agents. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
+    "Soy Desarrollador de Sistemas y Sitios Web, Ingeniero en Sistemas Informáticos, graduado en el 2014, con 5 años de experiencia en desarrollo y más 10 años en el sector de Banca y Finanzas en el área comercial. He trabajado en varios proyectos Internacionales, para España, Venezuela, Brasil, Perú y Argentina. Tengo experiencia en forma remota con la gente de #Interfell - #WebImpacto y #LBSCanarias con contratos de tipo Full-time.<br><br>Desarrollé sistemas de gestión para casas de electrodomésticos con manejo de créditos, cobranzas, facturación, comisiones a vendedores entre otros. También he desarrollado sistemas para control de Horarios, Gestión de Impuestos, Gestión de Citas y Reservas. <br><br> Manejo Tecnologías y metodologías como Git, Jira, Scrum, Trello, MVC, POO y otros. Me apasiona programar ya sea en PHP, usando codeigniter o laravel u otra tecnología ",
   links: {
-    linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
-    github: "https://github.com/hrishikeshpaul",
-    angellist: "https://angel.co/u/hrishikesh-paul",
-    resume:
-      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
+    linkedin: "https://www.linkedin.com/in/justoramon/",
+    github: "https://github.com/jrgonzalez3",
+    resume: "https://github.com/jrgonzalez3/certificados/blob/master/historialCV/Curriculum_Ing_JustoG_Esp.pdf",
   },
   education: [
     {
-      name: "Indiana University Bloomington",
-      place: "USA",
-      date: "Aug, 2019 - May, 2021",
-      degree: "Masters in Computer Science",
-      gpa: "3.7/4.0",
+      name: "Universidad Técnica de Comercialización y Desarrollo",
+      place: "Paraguay",
+      date: "Ene, 2008 - Feb, 2014",
+      degree: "Ingeniero en Sistemas Informáticos",
+      gpa: "4.0/4.5",
       description:
-        "Currently pursuing my Master's in Computer Science, while specializing in the field of Artificial Intelligence and Machine Learning.",
+        "Aprendí bases sólidas de la informática, metodologías y buenas prácticas para la gestión de los datos e información del cliente",
       skills: [
-        "Artificial Intelligence",
+        "UML",
         "Software Engineering",
         "Algorithms",
-        "Computer Vision",
-        "Music Data Mining",
-        ,
-        "OS"
-      ]
+        "Databases",
+        "Scrum",
+        "OS",
+      ],
     },
     {
-      name: "Manipal Institute of Technology",
-      place: "India",
-      date: "Aug, 2015 - July, 2019",
-      degree: "Bachelors in Computer and Communication",
-      gpa: "8.0/10.0",
-      description:
-        "Graduated from Manipal Institute of Technology, Manipal with a bachelors degree in Computer and Communications Engineering.",
+      name:
+        "Cert. Remote Work and Virtual Collaboration Certificate RWVCPC - Spanish",
+      place: "CertiProf",
+      date: "Apr, 2021",
+      degree: "Certificate Remote Work",
+      gpa: "",
+      description: "Has successfully passed the certification exam",
+      skills: ["Jira", "Scrum", "Kanban", "Agile"],
+    },
+    {
+      name: "Curso Wordpress + Woocommerce",
+      place: "Udemy",
+      date: "Ago, 2020",
+      degree: "Certificado de Culminación Exitosa",
+      gpa: "",
+      description: "Culminación Exitosa del Curso Wordpress + Woocommerce",
+      skills: ["Wordpress", "Woocommerce", "E-commerce", "PHP", "Mysql"],
+    },
+    {
+      name: "Curso E-Commerce",
+      place: "Google Actívate",
+      date: "Jan, 2019",
+      degree: "Certificado de Culminación Exitosa",
+      gpa: "",
+      description: "Culminación Exitosa del Curso E-Commerce",
       skills: [
-        "AI",
-        "Neural Netwroks",
-        "Data Mining",
-        "Computer Vision",
-        "Pattern Recognition",
-        "HCI",
-        "Software Engineering"
-      ]
-    }
+        "Definición",
+        "Tipos",
+        "Logística y Distribución",
+        "Redes Sociales",
+        "Marketing y Publicidad Digital",
+      ],
+    },
+    {
+      name: "Fundamentos de la Programación Web",
+      place: "Udemy",
+      date: "Apr, 2019",
+      degree: "Certificado de Culminación Exitosa",
+      gpa: "",
+      description: "Culminación Exitosa del Fundamentos de la Programación Web",
+      skills: [
+        "Lenguajes",
+        "Frameworks",
+        "Bases de Datos",
+        "Tools y Softwares",
+      ],
+    },
+    {
+      name: "Manejo de Servidores Windows, Linux",
+      place: "Udemy",
+      date: "Apr, 2019",
+      degree: "Certificado de Culminación Exitosa",
+      gpa: "",
+      description:
+        "Culminación Exitosa del Manejo de Servidores Windows, Linux",
+      skills: [
+        "Windows Server",
+        "Ubuntu Server",
+        "LAMP",
+        "WAMP",
+        "Apache",
+        "Nginx",
+      ],
+    },
   ],
   experience: [
     {
-      name: "Cyberinfrastructure for Network Science Center",
-      place: "Bloomington, Indiana",
-      date: "Jun, 2020 - Present",
-      position: "Research Assistant; Full Stack Developer",
+      name: "J.R Ingeniería y Servicios",
+      place: "Capiatá, Paraguay",
+      date: "Jun, 2006 - Present",
+      position: "C.E.O, Web Developer",
       description:
-        "Worked as a Software Developer for the Human BioMolecular Atlas Program (funded by the NIH), building innovative visualization tools to envision large biomedical datasets.",
-      skills: ["Angular", "Node.js", "Vega", "Shell", "Typescript"]
+        "Creé el emprendimiento, junto con el WebSite, para dar a conocer Productos y Servicios en materia de Software, desarrollo de Sistemas y Consultorías.",
+      skills: [
+        "Wordpress",
+        "Php",
+        "MySql",
+        "Javscript",
+        "Bootstrap",
+        "Trello",
+        "Moddle",
+        "CodeIgniter",
+      ],
     },
     {
-      name: "Skylark Drones",
-      place: "Bangalore, India",
-      date: "Jan, 2019 - Jun, 2021",
+      name: "WebImpacto - The eCommerce Agency(REMOTO)",
+      place: "Barcelona-España y EEUU",
+      date: "Set, 2020 - Jun, 2021 - Contrato Temporal",
       position: "Full Stack Web Developer",
       description:
-        "Worked as a full stack web developer, implementing various features and fixing bugs for Skylark Drones’ central management system called Operations Portal and Data Mining Server.",
-      skills: ["MongoDB", "Flask", "VueJS", "NGINX"]
+        "Trabaje con varios proyectos E-commerce como LaVentana, www.patprimo.com.ec, www.sesevenseven.com, www.facol.com.co, www.norarealfood.com, Verdecora.es, www.esdemercado.com, www.partyfiesta.com, www.moonoa.fr en Frances, por citar algunos, he desarrollado módulos para Prestashop, VTEX, Shopify he adaptado el frontEnd entre otras modificaciones ",
+      skills: ["Prestashop", "Symfony", "VueJS", "NGINX", "PLESK"],
     },
     {
-      name: "Hridayam Soft Solutions",
-      place: "Mumbai, India",
-      date: "May, 2018 - Jun, 2018",
-      position: "Computer Vision Engineer",
+      name: "Universidad Técnica de Comercialización y Desarrollo",
+      place: "Itauguá, Paraguay",
+      date: "Jan, 2015 - Jan, 2021",
+      position: "Docente Catedrático",
       description:
-        "Scripted an algorithm for extracting information (such as date, invoice number etc.) from scanned images of invoices, built a web interface for using the former mentioned machine.",
-      skills: ["Python", "OpenCV", "PyTesseract", "AngularJS", "NodeJS"]
+        "Ejercí la Docencia durante 6 años, impartiendo clases presenciales y virtuales, he desarrollado un sistema de Gestion de Eventos para Generar Certificados de Cursos en los que participaban los Alumnos, ademas de gestionar sus ingresos y admisiones. Impartí Clases a los cursos de último año 4to y 5to, Materias como Ingeniería de Software, Inteligencia Artificial, UML, Gestión de Proyectos, Diseño y Estructura de Base de Datos, CMM, CMMI, Metodologías Agiles entre otros.",
+      skills: [
+        "Trello",
+        "UML",
+        "DOCENCIA",
+        "Moddle",
+        "Gestión de Proyectos",
+        "Enseñanza Superior",
+      ],
     },
     {
-      name: "Elementail Labs",
-      place: "Mumbai, India",
-      date: "May, 2017 - July, 2017",
-      position: "Full Stack Web Developer",
+      name: "Consultoría sobre TESIS de GRADO",
+      place: "Capiatá, Paraguay",
+      date: "Jan, 2020 - Present",
+      position: "Tutoría Personalizada de Tesis",
       description:
-        "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
-      skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
+        "Realizo la tutoría de Tesis, fuí miembro de mesa Examinadora de Tesis para Ingeniería en Sistemas, Año 2020, UTCD CENTRAL e imparto clases particulares para la realización y defensa de TESIS.",
+      skills: ["Gestion de Proyectos", "UML", "TRELLO", "KANBAN"],
     },
     {
-      name: "Viteos Capital Market Services s",
-      place: "Mumbai, India",
-      date: "May, 2016 - July, 2016",
-      position: "Software Developer",
+      name: "LBS Canarias(REMOTO) hoy www.programadoresporhoras.com ",
+      place: "Las Palmas de Gran Canaria, España",
+      date: "Set, 2019 - Mar, 2020 - Contrato Temporal",
+      position: "Web y Software Developer",
       description:
-        "Evaluated technologies, and building proof of concept/prototype solutions for trade processing and mathematical model based evaluations, while working in the software development team.",
-      skills: ["C#", "C++", "Visual Studio"]
-    }
+        "Trabajé en forma remota con varios proyectos como LAMadera, taxi-brussels.com entre otros, diseñe interfaces web, formularios, adapte sitios web de acuerdo a templates de Adobe, Figma, Trabajé en un proyecto de Cero para un crud en REACT, entre otros..",
+      skills: ["ReactJs", "NodeJs", "Php", "MySql", "Javascript"],
+    },
+    {
+      name: "Banco Familiar SAECA",
+      place: "Asunción, Paraguay",
+      date: "Apr, 2012 - Jun, 2016",
+      position: "Ejecutivo de Cuentas - Account Manager",
+      description:
+        "Realicé la Gestión de Cartera, Otorgamiento de Créditos, cuentas corrientes, operaciones de descuento de cheques, sobregiros y cobranzas",
+      skills: [
+        "Finanzas",
+        "Cuentas Corrientes",
+        "Cheques",
+        "Control de Morosidad",
+        "Análisis de Créditos",
+      ],
+    },
+    {
+      name: "Solar S.A Ahorro y Finanzas",
+      place: "Luque, Paraguay",
+      date: "Dec, 2010 - Apr, 2012",
+      position: "Ejecutivo de Cuentas - Account Manager",
+      description:
+        "Realicé la Gestión de Cartera, Otorgamiento de Créditos, Colocación de Préstamos para vehículos, viviendas, maquinarias, operaciones de descuento de cheques y cobranzas",
+      skills: [
+        "Finanzas",
+        "Cuentas de ahorros",
+        "Cheques",
+        "Control de Morosidad",
+        "Análisis de Créditos",
+      ],
+    },
+    {
+      name: "Banco Amambay S.A hoy BASA CAPITAL",
+      place: "Asunción, Paraguay",
+      date: "Oct, 2008 - Dec, 2010",
+      position: "Ejecutivo de Cuentas - Account Manager",
+      description:
+        "Realicé la Gestión de Cartera, Otorgamiento de Créditos, Cuentas Corrientes,  Colocación de Préstamos para vehículos, viviendas, maquinarias, operaciones de descuento de cheques y cobranzas",
+      skills: [
+        "Finanzas",
+        "Cuentas de ahorros",
+        "Cheques",
+        "Control de Morosidad",
+        "Análisis de Créditos",
+      ],
+    },
+    {
+      name: "Financiera EL COMERCIO SAECA",
+      place: "Asunción, Paraguay",
+      date: "Feb, 2006 - Set, 2008",
+      position: "Ejecutivo de Cuentas - Account Manager",
+      description:
+        "Realicé la Gestión de Cartera, Otorgamiento de Créditos, Colocación de Préstamos para vehículos, viviendas, maquinarias, operaciones de descuento de cheques y cobranzas",
+      skills: [
+        "Finanzas",
+        "Cuentas de ahorros",
+        "Cheques",
+        "Control de Morosidad",
+        "Análisis de Créditos",
+      ],
+    },
   ],
   skills: [
     {
-      title: "languages",
-      info: [
-        "Python",
-        "Javascript",
-        "TypeScript",
-        "Java",
-        "C",
-        "C++",
-        "SQL",
-        "NoSQL",
-        "Ruby"
-      ],
-      icon: "fa fa-code"
+      title: "languages and databases",
+      info: ["PHP", "Javascript", "TypeScript", "MySql", "MongoDB(Basic)"],
+      icon: "fa fa-code",
     },
     {
       title: "data frameworks",
       info: [
-        "Keras",
-        "Numpy",
-        "Pandas",
-        "OpenCV",
-        "SciPy",
-        "Sklearn",
-        "LibROSA",
-        "Pillow"
+        "CodeIgniter",
+        "Bootstrap",
+        "JQuery",
+        "BulmaCSS",
+        "Prestashop",
+        "Shopify",
+        "Vtex",
+        "Laravel",
       ],
-      icon: "fa fa-cubes"
+      icon: "fa fa-cubes",
     },
     {
       title: "web technologies",
-      info: ["Vue", "Angular", "React", "Node", "Flask", "HTML", "CSS"],
-      icon: "fas fa-laptop-code"
+      info: [
+        "Vue(Basic)",
+        "Angular(Basic)",
+        "React(Basic)",
+        "Node(Basic)",
+        "Bootstrap",
+        "HTML",
+        "CSS",
+        "Javascript",
+      ],
+      icon: "fas fa-laptop-code",
     },
     {
-      title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL", "Neo4j"],
-      icon: "fa fa-database"
+      title: "Gestión de Proyectos y Metodologías",
+      info: [
+        "Agile",
+        "Scrum",
+        "Trello",
+        "JIRA",
+        "GIT",
+        "UML",
+        "POO",
+        "MVC",
+        "GANTT",
+      ],
+      icon: "fa fa-database",
     },
     {
-      title: "operating systems & tools",
+      title: "operating systems, server & tools",
       info: [
         "MacOS",
         "Ubuntu",
         "Windows",
         "Android",
-        "Agile",
-        "Scrum",
-        "JIRA",
         "Heroku",
         "Firebase",
-        "AWS S3"
+        "VsCode",
+        "AWS S3",
       ],
-      icon: "fas fa-tools"
+      icon: "fas fa-tools",
     },
     {
-      title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
-      icon: "fa fa-pencil-square-o"
-    }
+      title: "design & Speech ",
+      info: [
+        "XD(Basic)",
+        "Photoshop(Basic)",
+        "Final Cut Pro",
+        "Spanish",
+        "Guaraní",
+        "English(A2-Elemental)",
+      ],
+      icon: "fa fa-pencil-square-o",
+    },
   ],
   portfolio: [
     {
-      name: "Sheet Recognizer",
+      name: "Sistema Gescob",
       pictures: [
         {
-          img: require("./src/assets/portfolio/msr/one.png")
+          img: require("./src/assets/portfolio/gescob/logoGescob.png"),
         },
         {
-          img: require("./src/assets/portfolio/msr/two.png")
+          img: require("./src/assets/portfolio/gescob/gescobEscritorio.png"),
         },
         {
-          img: require("./src/assets/portfolio/msr/three.png")
+          img: require("./src/assets/portfolio/gescob/gescobProductos.png"),
         },
         {
-          img: require("./src/assets/portfolio/msr/four.png")
-        }
+          img: require("./src/assets/portfolio/gescob/gescobVenta.png"),
+        },
       ],
-      technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
-      category: "Algorithm",
-      date: "Jan, 2020 - Mar, 2020",
-      github:
-        "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
-      visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
+      technologies: ["Php", "MySql", "CSS3", "Bootstrap", "JQuery"],
+      category: "Sistema de Gestión y Facturación",
+      date: "Jan, 2018 - Present",
+      github: "https://gescob.online/gescob_base/login.php",
+      visit: "https://gescob.online/",
       description:
-        "Music Sheet Recognizer (MSR) highlights basic Image Processing and Recognition. Like Optical Character Recognition, this tool is used to detect music notes and rests. It makes use of basic Computer Vision techniques such as Convolution, Edge Detections, Hough Transforms and Template Matching to detect notes and rests on a music sheet. "
+        "Sistema de Gestion para casas de Electrodomésticos y negocios de venta al contado y crédito, Gestiona los productos, compras, ventas, clientes, proveedores, empleados, usuarios entre otros. Emite Facturas preimpresas, tickets, notas de ventas, presupuestos, recibos, pagarés, remisiones, además de informes de comisiones a vendedores, gestion integral de morosidad, ventas a créditos, cuentas por pagar entre otros. <BR><BR> Cuenta con una sencilla interfaz y bastante ágil de manejar. El sistema se encuentra en producción y lo están utilizando varios clientes, en su modalidad SAAS (pago mensual). <BR><BR> Para realizar pruebas de la demo, utilice las credenciales: usuario:demo | clave: demo123",
     },
     {
-      name: "NoQ Job Portal",
+      name: "Sistema Gestock360",
       pictures: [
         {
-          img: require("./src/assets/portfolio/noq/logo.png")
+          img: require("./src/assets/portfolio/gestock/gestockLogo.png"),
         },
         {
-          img: require("./src/assets/portfolio/noq/one.png")
+          img: require("./src/assets/portfolio/gestock/gestockEscritorio.png"),
         },
         {
-          img: require("./src/assets/portfolio/noq/two.png")
+          img: require("./src/assets/portfolio/gestock/gestockProductos.png"),
         },
         {
-          img: require("./src/assets/portfolio/noq/three.png")
+          img: require("./src/assets/portfolio/gestock/gestockVenta.png"),
         },
         {
-          img: require("./src/assets/portfolio/noq/four.png")
-        }
+          img: require("./src/assets/portfolio/gestock/gestockNotaVenta.png"),
+        },
       ],
-      technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
-      category: "Website",
-      date: "Sep, 2019 - Dec  , 2019",
-      github: "https://github.com/hrishikeshpaul/noq",
-      visit: "https://noq-client.herokuapp.com/",
+      technologies: ["Php", "Codeigniter 3", "MySql", "CSS3", "Bootstrap", "JQuery"],
+      category: "Sistema de Gestión y Facturación",
+      date: "Jan, 2018- Present",
+      github: "https://gescob.online/gestock_base/",
+      visit: "https://jringenieriayservicios.com/",
       description:
-        "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system."
+        "Sistema de Gestion para Locales Comerciales, Gestiona los productos, compras, ventas, clientes, proveedores, empleados, usuarios entre otros. Emite Facturas preimpresas, tickets, notas de ventas,además de informes de compras y ventas. <BR><BR> Cuenta con una sencilla interfaz y bastante ágil de manejar. El sistema se encuentra en producción y lo están utilizando varios clientes, en su modalidad SAAS (pago mensual). <BR><BR> Para realizar pruebas de la demo, utilice las credenciales: usuario:cajero | clave: cajero123",
     },
     {
-      name: "POST",
+      name: "SysPres",
       pictures: [
         {
-          img: require("./src/assets/portfolio/post/one.png")
+          img: require("./src/assets/portfolio/syspres/syspres1.png"),
         },
         {
-          img: require("./src/assets/portfolio/post/two.png")
+          img: require("./src/assets/portfolio/syspres/syspresHome.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/syspres/syspresPrint.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/syspres/syspresDetalles.png"),
         }
       ],
-      technologies: [
-        "Markov Models",
-        "Python",
-        "Artificial Intelligence",
-        "Vue",
-        "Heroku"
-      ],
-      category: "Algorithm",
-      github: "https://github.com/hrishikeshpaul/pos-tagger",
-      date: "Oct, 2019 - Nov, 2019",
-      visit: "https://post-client.herokuapp.com/",
+      technologies: ["PHP", "Javascript", "Html5", "JSon", "Css3"],
+      category: "Generación de Presupuestos",
+      date: "Sep, 2018 - Dec, 2019",
+      github: "http://syspres.eshost.com.ar/",
+      visit: "http://syspres.eshost.com.ar/",
       description:
-        "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
+        "Syspres es un sistema para generar Presupuestos o cotizaciones a clientes, se calculan los trabajos por tiempo en horas, dias, semanas, meses y se puede agregar características opcionales, es configurable las firmas y contenidos varios, se genera en pdf para enviar al cliente. <br><br> Para ingresar a la demo simplemente cree una cuenta con su E-mail",
     },
     {
-      name: "Suicide Analyzer",
+      name: "Ivas - Gestion de Impuestos",
       pictures: [
         {
-          img: require("./src/assets/portfolio/suicide/suicide-analyzer.png")
+          img: require("./src/assets/portfolio/ivas/ivaContribuyente.png"),
         },
         {
-          img: require("./src/assets/portfolio/suicide/suicide2-original.png")
+          img: require("./src/assets/portfolio/ivas/ivasHome.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/ivas/ivasMovimiento.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/ivas/ivasVerMovimiento.png"),
         }
       ],
-      technologies: ["Node", "Angular", "Express", "Leaflet", "Pandas"],
-      category: "Website",
-      date: "Oct, 2018 - Nov, 2018",
-      github: "https://github.com/hrishikeshpaul/whodata",
-      visit: "https://skylarktiral.herokuapp.com/",
+      technologies: ["PHP", "Javascript", "Html5", "JSon", "CodeIgniter 3", "Css3"],
+      category: "Gestión de Impuestos",
+      date: "Sep, 2018",
+      github: "http://ivas.eshost.com.ar/",
+      visit: "http://ivas.eshost.com.ar/",
       description:
-        "This is a web application, uses a map to demonstrate the number suicides committed around the globe, according to a dataset provided by the WHO. The application consists of a Leaflet map that colors every nation, based on the number of suicides that have been committed in that country, for that year. It provides us with the capability to select the data as well as the continent."
+        "Ivas es un sistema que desarrollé usando codeigniter 3, para la gestión de mis movimientos y control de mis impuestos, tiene Crud de Contribuyentes, empresas y maneja los movimientos de compra y venta de cada contribuyente, calcula en forma automática el impuesto de cada ítem. <br><br> Para ingresar a la demo use estas credenciales, Usuario: admin  Clave:demo",
     },
     {
-      name: "Sentiment Analyzer",
+      name: "Soportick - Tickets",
       pictures: [
         {
-          img: require("./src/assets/portfolio/smit/one.png")
+          img: require("./src/assets/portfolio/soportick/sphome.png"),
         },
         {
-          img: require("./src/assets/portfolio/smit/two.png")
+          img: require("./src/assets/portfolio/soportick/spTicket.png"),
         },
         {
-          img: require("./src/assets/portfolio/smit/three.png")
+          img: require("./src/assets/portfolio/soportick/spReporte.png"),
         },
         {
-          img: require("./src/assets/portfolio/smit/four.png")
+          img: require("./src/assets/portfolio/soportick/spNvoTicket.png"),
         }
       ],
-      technologies: ["LSTM", "Keras", "Angular", "Tweepy", "Heroku", "Python"],
-      category: "Alogrithm",
-      date: "Feb, 2018 - Apr  , 2018",
-      github: "https://github.com/hrishikeshpaul/sih",
-      visit: "https://angel.co/projects/1009777-sentiment-analysis",
+      technologies: ["PHP", "Javascript", "Html5", "JSon", "Css3"],
+      category: "Gestión de Tickets de Soporte",
+      date: "Sep, 2016",
+      github: "http://soportick.eshost.com.ar/",
+      visit: "http://soportick.eshost.com.ar/",
       description:
-        "Developing this for the final round of Smart India Hackathon 2018, the web application is a platform for showcasing the sentiment of the tweets of the people in the Telangana region in India on policy satisfaction, services and problem definitions. The minimal UI design consists of different bins, that have their respective tweets, all scraped from twitter. There is also a simple graphical representation denoting the sentiment of the tweets."
+        "Soportick Gestiona tickets de soporte que generan los clientes si tienen inconvenientes o alguna informacion de los sistemas que utilizan, con ello, se pueden crear proyectos, informar errores, bugs, novedades, ideas y controlar el progreso de los mismos. <br><br> Para ingresar a la demo use estas credenciales, Usuario: admin  Clave:admin",
     },
     {
-      name: "Clumpr",
+      name: "Eventix",
       pictures: [
         {
-          img: require("./src/assets/portfolio/clumpr/logo.png")
+          img: require("./src/assets/portfolio/eventix/eventixHome.png"),
         },
         {
-          img: require("./src/assets/portfolio/clumpr/one.png")
+          img: require("./src/assets/portfolio/eventix/evEventos.png"),
         },
         {
-          img: require("./src/assets/portfolio/clumpr/two.png")
+          img: require("./src/assets/portfolio/eventix/evParticipantes.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/eventix/evAcreditaciones.png"),
         }
       ],
-      technologies: ["Node", "Angular", "Express", "MySQL", "Facebook API"],
-      category: "Web App",
-      github: "https://github.com/hrishikeshpaul/clumpr",
-      date: "Sep, 2017 - Nov, 2017",
-      visit: "https://github.com/hrishikeshpaul/clumpr",
+      technologies: ["PHP", "Javascript", "Html5", "JSon", "CodeIgniter 3", "Css3"],
+      category: "Gestión de Eventos y Certificados",
+      date: "Sep, 2016",
+      github: "http://eventix.eshost.com.ar/",
+      visit: "http://eventix.eshost.com.ar/",
       description:
-        'Clumpr is an online social event planning assistant that - using information about similar events happening in similar locations around the same time, friends who frequently attend the same events, and mutual friends - helps users to collaborate, combine, and attend events together, effectively "clumping" people and activities in a way that makes intuitive sense.'
+        "Eventix Gestiona Eventos y Acreditaciones de Alumnos, Trabaja con el Sitio Web www.utcditaugua.eshost.com.ar donde los alumnos se inscriben, luego se acreditan al presentarse en los eventos, al culminar tal evento, los mismos pueden generar su Certificado con su Nombre y Apellido, junto con las horas que duró el Evento y el nombre del Mismo.<br><br> Para ingresar a la demo use estas credenciales, Usuario: superadmin  Clave:admin123",
     },
-    {
-      name: "Nutricare",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/nc/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/four.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/five.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/six.png")
-        }
-      ],
-      technologies: ["Node", "Angular", "Express", "MongDB", "Medical"],
-      category: "Website",
-      github: "https://github.com/hrishikeshpaul/clumpr",
-      date: "May, 2017 - Aug, 2017",
-      visit: "https://angel.co/projects/576300-nutricare",
-      description:
-        "Nutricare is a basic health website for users(patients) to input nutrient intake data and researchers to analyse the data with the help of graphs and tables. A researcher can conduct studies on N different subjects (patient) for a particular problem statement. Typically, a researcher will enter food item consumed by subjects over a period of time (Ex - 24hrs, or 1 week, or 1 month etc)."
-    }
   ],
   portfolio_design: [
     {
-      name: "Guituna",
-      title: "Guituna - Mockup Design",
+      name: "J.R. Ingeniería y Servicios",
+      title: "www.jringenieriayservicios.com - Website",
       pictures: [
         {
-          img: require("./src/assets/designs/coursera1/MoodBoard.png"),
-          title: "MoodBoard"
+          img: require("./src/assets/portfolio/jringenieria/jrHome.png"),
+          title: "Home",
         },
         {
-          img: require("./src/assets/designs/coursera1/Mockups 1.png"),
-          title: "Mockups 1"
+          img: require("./src/assets/portfolio/jringenieria/jrTienda.png"),
+          title: "Tienda",
         },
         {
-          img: require("./src/assets/designs/coursera1/Mockups 2.png"),
-          title: "Mockups 2"
-        },
-        {
-          img: require("./src/assets/designs/coursera1/App Elements.png"),
-          title: "App Elements"
+          img: require("./src/assets/portfolio/jringenieria/jrProductPage.png"),
+          title: "Product Page",
         }
       ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
+      technologies: ["WordPress", "WooCommerce"],
+      category: "WebSite",
       github: "",
-      date: "May, 2020 - Jun, 2020",
-      visit: "",
+      date: "May, 2016",
+      visit: "https://jringenieriayservicios.com/",
       description:
-        "Guituna is a simple, lightweight and intuitive guitar tuner, that provides different modes of guitars based on your usage. You can either select a specific string to tune, or free tune your guitar based on the frequency shown on the meter. Guituna also provides a handful of different tunings to help explore various tuning paradigms. There is also an array of settings that can be configured to your liking based on the devices you're using. <br/><br/>The interface aims to highlight the use of a minimal design and providing just enough controls to make for a great tuner, while exposing various possibilities of guitarists to explore."
+        "Sitio Web de mi emprendimiento, para venta de sistemas a medida, tambien incluye una tienda con Woocommerce, basado en Wordpress. Se detallan datos y gestion de mensajes via chat para Facebook Messenger y WhatsApp",
     },
     {
-      name: "Pantree",
-      title: "Pantree - Mockup Design",
+      name: "www.saldopaypal.com.ar",
+      title: "www.saldopaypal.com.ar - Website",
       pictures: [
         {
-          img: require("./src/assets/designs/pantree/MoodBoard.png"),
-          title: "Moodboard"
+          img: require("./src/assets/portfolio/saldopaypal/saldopaypalLogo.png"),
         },
         {
-          img: require("./src/assets/designs/pantree/1.png"),
-          title: "Mockups 1"
+          img: require("./src/assets/portfolio/saldopaypal/saldopaypalHome.png"),
         },
         {
-          img: require("./src/assets/designs/pantree/2.png"),
-          title: "Mockups 2"
+          img: require("./src/assets/portfolio/saldopaypal/saldopaypalComprar.png"),
         }
       ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - July, 2020",
-      visit: "",
+      technologies: ["JSON", "PHP", "Javascript"],
+      category: "WebSite",
+      github: "https://saldopaypal.com.ar/",
+      date: "Jun, 2021",
+      visit: "https://saldopaypal.com.ar/",
       description:
-        "Pantree is a recipiece finding and recommending application. It is often the case that you have run to your closest grocery store just to pick up one item that is missing in your kitchen. Pantree keeps a track of all your ingredients, and suggests recipes based on your meal preferences and past recipes. <br/><br/> The goal of the interface is to keep it similar to various recipe/food apps to reduce the learning required by the user, but also provide a smooth interface for users to seemlessly browse through recipes and ingredients."
+        "Sitio Web de mi emprendimiento, para venta de sistemas a medida, tambien incluye una tienda con Woocommerce, basado en Wordpress. Se detallan datos y gestion de mensajes via chat para Facebook Messenger y WhatsApp",
     },
     {
-      name: "Bunder",
-      title: "Bunder - MVP Proposal",
+      name: "www.gescob.online",
+      title: "www.gescob.online - Website",
       pictures: [
         {
-          img: require("./src/assets/designs/bunder/Moodboard.png"),
-          title: "Moodboard"
+          img: require("./src/assets/portfolio/gescob_online/gescobOnlineHome.png"),
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 1.png"),
-          title: "Mockup 1"
+          img: require("./src/assets/portfolio/gescob_online/gescobOnlineHome.png"),
+        }
+
+      ],
+      technologies: ["Php", "Javascript"],
+      category: "WebSite",
+      github: "https://gescob.online/",
+      date: "May, 2020",
+      visit: "https://gescob.online/",
+      description:
+        "Sitio web Monoproducto, para la adquisición del sistema gescob360, se detallan sus ventajas y funciones, se adjunta video del funcionamiento, se prepara formulario para recepción de interesados, contiene tabla de precios entre otros detalles",
+    },
+    {
+      name: "www.utcditaugua.eshost.com.ar",
+      title: "www.utcditaugua.eshost.com.ar - Website",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/utcditaugua/utcditauguaHome2.png"),
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 2.png"),
-          title: "Mockup 2"
+          img: require("./src/assets/portfolio/utcditaugua/utcditauguaHome.png"),
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 3.png"),
-          title: "Mockup 3"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Market Research 1.png"),
-          title: "Market Research 1"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Market Research 2.png"),
-          title: "Market Research 2"
+          img: require("./src/assets/portfolio/utcditaugua/utcditauguaCert.png"),
         }
       ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - July, 2020",
-      visit: "",
+      technologies: ["Php", "Javascript", "Ajax", "MySql"],
+      category: "WebSite",
+      github: "https://utcditaugua.eshost.com/",
+      date: "Set, 2019",
+      visit: "https://utcditaugua.eshost.com/",
       description:
-        "Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them. Our aim is two-fold - Co-existing and Collaboration. The former is executed by providing a platform for communities that are geographically positioned in the same proximity (Housing societies, Dorms, Apartment Complexes) to have and share data (exact apartment addresses, phone number, apartment housing rules, individuals tested positive for COVID-19) in an exclusive platform. The latter is to give these people in the community the ability to carry out a task you are physically or remotely unable to do; with dignity and ease."
-    }
+        "Sitio Web para inscripcion en la Semana del Saber 2019, Una vez inscripto, se gestiona desde el sistema EVENTIX para las acreditaciones a los demas eventos, para luego poder emitir el certificado correspondiente al evento asistido. El certificado se Genera con ingresar su Número de Documento.",
+    },
   ],
   recommendations: [
     {
       title:
-        "In his internship, Hrishikesh has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
-      author: "Ushanas Shastri",
-      position: "CTO",
-      company: "Viteos Capital Market Services",
-      location: "Mumbai"
+        "Profesional responsable con agudo criterio de análisis y orientado a resultados efectivos y eficientes.(Recomendación en LinkedIn)",
+      author: "Myriam Britos",
+      position: "Business Analyst",
+      company: "Citibank N.A",
+      location: "Paraguay",
     },
-    {
-      title:
-        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
-      author: "Anil Dukkipatty",
-      position: "CTO",
-      company: "Elemential Labs",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "He has gained great knowledge and experience of SDE, and has learned ot develop the application keeping in mind the client's perpective and also making it creative.",
-      author: "Chintan Shah",
-      position: "Director",
-      company: "Hridayam Soft Solution",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "During the course of his employment we have found him to be a self-started who was motivated, duty bound and a highly commited team player.",
-      author: "Mrinal Pai",
-      position: "Co-Founder & Director",
-      company: "Skylark Drones",
-      location: "Bangalore"
-    }
-  ]
+  ],
 };
 
 export default info;

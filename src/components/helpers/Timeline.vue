@@ -28,12 +28,12 @@
             <li class="m-0 pb-2">
               <div>
                 <div class="px-2 title2">{{ e.name }}, {{ e.place }}</div>
-                <div class="px-2 title3">
+                <div class="px-2 title3" style="font-weight:bold">
                   {{ e.degree || e.position }}
                   {{ e.gpa ? "(" + e.gpa + ")" : "" }}
                 </div>
-                <div class="px-2 date">{{ e.date }}</div>
-                <div class="px-2 pb-2 pt-2" style="text-align: justify;">
+                <div class="px-2 date" style="font-style: italic" >{{ e.date }}</div>
+                <div class="px-2 pb-2 pt-2" style="text-align: left;">
                   {{ e.description }}
                 </div>
                 <span

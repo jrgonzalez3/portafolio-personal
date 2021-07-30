@@ -75,7 +75,7 @@
           data-aos-duration="1000"
         >
           <textarea
-            name="message"
+            name="text"
             v-model="text"
             placeholder="message"
             class="pinput"
@@ -155,7 +155,7 @@ export default {
           user_email: this.email,
           from_name: this.name,
           message_html: this.text,
-          to_name: "Hrishikesh Paul",
+          to_name: "Justo Gonzalez",
         };
 
         emailjs

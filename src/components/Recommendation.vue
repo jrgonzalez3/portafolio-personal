@@ -19,7 +19,7 @@
       />
       <div class="row">
         <div
-          class="col-xl-6 col-bg-6 col-md-6 col-sm-12 py-3 px-5"
+          class="col-xl-12 col-bg-12 col-md-12 col-sm-12 py-3 px-5"
           v-for="d in data"
           :key="d.author"
         >
