@@ -90,15 +90,20 @@ export default {
 @media screen and (max-width: 580px) {
   #app {
     width: fit-content;
+    /* width: auto; */
   }
 }
-
+/* .navbar>.container, .navbar>.container-fluid {
+  display: inline-block;
+} */
 .parent {
   margin-top: 38px;
   padding-top: 40px;
   position: relative;
 }
-
+body{
+  word-break: break-word;
+}
 .pgray {
   color: #535a5e;
 }

@@ -101,24 +101,6 @@ let info = {
   ],
   experience: [
     {
-      name: "J.R Ingeniería y Servicios",
-      place: "Capiatá, Paraguay",
-      date: "Jun, 2006 - Present",
-      position: "C.E.O, Web Developer",
-      description:
-        "Creé el emprendimiento, junto con el WebSite, para dar a conocer Productos y Servicios en materia de Software, desarrollo de Sistemas y Consultorías.",
-      skills: [
-        "Wordpress",
-        "Php",
-        "MySql",
-        "Javscript",
-        "Bootstrap",
-        "Trello",
-        "Moddle",
-        "CodeIgniter",
-      ],
-    },
-    {
       name: "WebImpacto - The eCommerce Agency(REMOTO)",
       place: "Barcelona-España y EEUU",
       date: "Set, 2020 - Jun, 2021 - Contrato Temporal",
@@ -126,6 +108,15 @@ let info = {
       description:
         "Trabaje con varios proyectos E-commerce como LaVentana, www.patprimo.com.ec, www.sesevenseven.com, www.facol.com.co, www.norarealfood.com, Verdecora.es, www.esdemercado.com, www.partyfiesta.com, www.moonoa.fr en Frances, por citar algunos, he desarrollado módulos para Prestashop, VTEX, Shopify he adaptado el frontEnd entre otras modificaciones ",
       skills: ["Prestashop", "Symfony", "VueJS", "NGINX", "PLESK"],
+    },
+    {
+      name: "LBS Canarias(REMOTO) hoy www.programadoresporhoras.com ",
+      place: "Las Palmas de Gran Canaria, España",
+      date: "Set, 2019 - Mar, 2020 - Contrato Temporal",
+      position: "Web y Software Developer",
+      description:
+        "Trabajé en forma remota con varios proyectos como LAMadera, taxi-brussels.com entre otros, diseñe interfaces web, formularios, adapte sitios web de acuerdo a templates de Adobe, Figma, Trabajé en un proyecto de Cero para un crud en REACT, entre otros..",
+      skills: ["ReactJs", "NodeJs", "Php", "MySql", "Javascript"],
     },
     {
       name: "Universidad Técnica de Comercialización y Desarrollo",
@@ -153,13 +144,22 @@ let info = {
       skills: ["Gestion de Proyectos", "UML", "TRELLO", "KANBAN"],
     },
     {
-      name: "LBS Canarias(REMOTO) hoy www.programadoresporhoras.com ",
-      place: "Las Palmas de Gran Canaria, España",
-      date: "Set, 2019 - Mar, 2020 - Contrato Temporal",
-      position: "Web y Software Developer",
+      name: "J.R Ingeniería y Servicios",
+      place: "Capiatá, Paraguay",
+      date: "Jun, 2006 - Present",
+      position: "C.E.O, Web Developer",
       description:
-        "Trabajé en forma remota con varios proyectos como LAMadera, taxi-brussels.com entre otros, diseñe interfaces web, formularios, adapte sitios web de acuerdo a templates de Adobe, Figma, Trabajé en un proyecto de Cero para un crud en REACT, entre otros..",
-      skills: ["ReactJs", "NodeJs", "Php", "MySql", "Javascript"],
+        "Creé el emprendimiento, junto con el WebSite, para dar a conocer Productos y Servicios en materia de Software, desarrollo de Sistemas y Consultorías.",
+      skills: [
+        "Wordpress",
+        "Php",
+        "MySql",
+        "Javscript",
+        "Bootstrap",
+        "Trello",
+        "Moddle",
+        "CodeIgniter",
+      ],
     },
     {
       name: "Banco Familiar SAECA",
