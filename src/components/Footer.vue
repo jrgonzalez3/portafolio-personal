@@ -6,7 +6,7 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>© 2021 Copyright: Justo Gonzalez</span>
+          <span>©2021 Copyright: Ing. Justo Gonzalez </span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">

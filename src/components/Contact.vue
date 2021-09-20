@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >contact.</span
+          >Contáctame.</span
         >
       </div>
       <hr
@@ -36,7 +36,7 @@
             type="text"
             name="user_name"
             v-model="name"
-            placeholder="name"
+            placeholder="nombre"
             class="pinput"
             :class="{
               pgray: !nightMode,
@@ -77,7 +77,7 @@
           <textarea
             name="text"
             v-model="text"
-            placeholder="message"
+            placeholder="consulta, mensaje, etc"
             class="pinput"
             rows="4"
             :class="{
@@ -97,7 +97,7 @@
           data-aos-duration="1000"
           data-aos-offset="50"
         >
-          Send
+          Contactar
         </button>
       </div>
 
@@ -148,7 +148,7 @@ export default {
     sendEmail() {
       if (!this.email || !this.name || !this.text) {
         this.showSnackbar = true;
-        this.snackbarMessage = "Please all the fields";
+        this.snackbarMessage = "Rellene todos los campos";
         this.snackbarColor = "rgb(212, 149, 97)";
       } else {
         var obj = {
@@ -168,7 +168,7 @@ export default {
           .then(
             (result) => {
               this.showSnackbar = true;
-              this.snackbarMessage = "Thanks! Message recieved.";
+              this.snackbarMessage = "Gracias! Su Mensaje ha sido recibido.";
               this.snackbarColor = "#1aa260";
 
               this.email = "";
@@ -177,7 +177,7 @@ export default {
             },
             (error) => {
               this.showSnackbar = true;
-              this.snackbarMessage = "Oops! Something went wrong.";
+              this.snackbarMessage = "Oops! Ocurrieron algunos errores desafortunados, reintente.";
               this.snackbarColor = "rgb(212, 149, 97)";
             }
           );

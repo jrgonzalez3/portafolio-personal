@@ -43,7 +43,7 @@
             class="btn-sm btn btn-outline-secondary no-outline"
             @click.prevent="showModal"
           >
-            read more
+            Ver +
           </button>
           <button
             href="#"
@@ -51,7 +51,7 @@
             v-if="portfolio.visit"
             @click.prevent="open(portfolio.visit)"
           >
-            visit website
+            Sitio Web
           </button>
         </div>
       </div>

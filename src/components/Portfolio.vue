@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >portfolio.</span
+          >Portafolio.</span
         >
       </div>
       <hr
@@ -100,7 +100,7 @@
                   class="btn-sm btn btn-outline-secondary no-outline"
                   @click.prevent="showDesignModalFn(design)"
                 >
-                  read more
+                  Ver +
                 </button>
               </div>
             </div>
@@ -169,7 +169,7 @@ export default {
       modal_info: {},
       design_modal_info: {},
       number: 3,
-      showBtn: "show more",
+      showBtn: "cargar más",
       shower: 0,
       data: [
         '<div class="example-slide">Slide 1</div>',

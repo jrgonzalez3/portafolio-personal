@@ -9,7 +9,7 @@ let info = {
     },
   },
   description:
-    "Soy Desarrollador de Sistemas y Sitios Web, Ingeniero en Sistemas Informáticos, graduado en el año 2014, con más de 7 años de experiencia en desarrollo y más 10 años en el sector de Banca y Finanzas en el área comercial. He trabajado en varios proyectos Internacionales, para España, Venezuela, Brasil, Perú y Argentina. Tengo experiencia en forma remota con la gente de #Interfell - #WebImpacto y #LBSCanarias con contratos de tipo Full-time.<br><br>Desarrollé sistemas de gestión para casas de electrodomésticos con manejo de créditos, cobranzas, facturación, comisiones a vendedores entre otros. También he desarrollado sistemas para control de Horarios, Gestión de Impuestos, Gestión de Citas y Reservas. <br><br> Manejo Tecnologías y metodologías como Git, Jira, Scrum, Trello, MVC, POO y otros. Me apasiona programar ya sea en PHP, usando codeigniter o laravel u otra tecnología ",
+    "Soy Desarrollador de Sistemas y Sitios Web, Ingeniero en Sistemas Informáticos, graduado en el año 2014, con más de 7 años de experiencia en desarrollo y más 10 años en el sector de Banca y Finanzas en el área comercial. He trabajado en varios proyectos Internacionales, para España, Venezuela, Brasil, Perú y Argentina. Tengo experiencia en forma remota con la gente de #Interfell - #WebImpacto y #LBSCanarias con contratos de tipo Full-time.<br><br>Desarrollé sistemas de gestión para casas de electrodomésticos con manejo de créditos, cobranzas, facturación, comisiones a vendedores entre otros. También he desarrollado sistemas para control de Horarios, Gestión de Impuestos, Gestión de Citas y Reservas. <br><br> Manejo Tecnologías y metodologías como Git, Jira, Scrum, Trello, MVC, POO, Laravel, YII, Codeigniter, CakePhp, Prestashop, Shopify, Vtex, WooCommerce, entre otros. Me apasiona programar ya sea en PHP, usando y aprendiendo cualquier tecnología.",
   links: {
     linkedin: "https://www.linkedin.com/in/justoramon/",
     github: "https://github.com/jrgonzalez3",
@@ -104,10 +104,10 @@ let info = {
       name: "WebImpacto - The eCommerce Agency(REMOTO)",
       place: "Barcelona-España y EEUU",
       date: "Set, 2020 - Jun, 2021 - Contrato Temporal",
-      position: "Full Stack Web Developer",
+      position: "Full Stack Web Developer - Desarrollador Senior PHP",
       description:
         "Trabaje con varios proyectos E-commerce como LaVentana, www.patprimo.com.ec, www.sesevenseven.com, www.facol.com.co, www.norarealfood.com, Verdecora.es, www.esdemercado.com, www.partyfiesta.com, www.moonoa.fr en Frances, por citar algunos, he desarrollado módulos para Prestashop, VTEX, Shopify he adaptado el frontEnd entre otras modificaciones ",
-      skills: ["Prestashop", "Symfony", "VueJS", "NGINX", "PLESK"],
+      skills: ["Prestashop", "Symfony", "Vtex", "Shopify", "VueJS", "NGINX", "PLESK"],
     },
     {
       name: "LBS Canarias(REMOTO) hoy www.programadoresporhoras.com ",
@@ -141,7 +141,7 @@ let info = {
       position: "Tutoría Personalizada de Tesis",
       description:
         "Realizo la tutoría de Tesis, fuí miembro de mesa Examinadora de Tesis para Ingeniería en Sistemas, Año 2020, UTCD CENTRAL e imparto clases particulares para la realización y defensa de TESIS.",
-      skills: ["Gestion de Proyectos", "UML", "TRELLO", "KANBAN"],
+      skills: ["Gestion de Proyectos", "UML", "Laravel", "Codeigniter", "TRELLO", "KANBAN"],
     },
     {
       name: "J.R Ingeniería y Servicios",
@@ -159,6 +159,8 @@ let info = {
         "Trello",
         "Moddle",
         "CodeIgniter",
+        "Yii",
+        "CakePhp"
       ],
     },
     {
@@ -231,14 +233,17 @@ let info = {
     {
       title: "data frameworks",
       info: [
+        "Laravel",
         "CodeIgniter",
-        "Bootstrap",
-        "JQuery",
-        "BulmaCSS",
-        "Prestashop",
+        "YII2",
+        "CakePhp",
         "Shopify",
         "Vtex",
-        "Laravel",
+        "Prestashop",
+        "WordPress",
+        "WooCommerce",
+        "Bootstrap",
+        "JQuery",
       ],
       icon: "fa fa-cubes",
     },
@@ -290,6 +295,9 @@ let info = {
       info: [
         "XD(Basic)",
         "Photoshop(Basic)",
+        "Figma",
+        "Spec",
+        "Canva",
         "Final Cut Pro",
         "Spanish",
         "Guaraní",
@@ -449,29 +457,27 @@ let info = {
   ],
   portfolio_design: [
     {
-      name: "J.R. Ingeniería y Servicios",
-      title: "www.jringenieriayservicios.com - Website",
+      name: "ariascomercial.com.py",
+      title: "Arias Comercial - Website",
       pictures: [
         {
-          img: require("./src/assets/portfolio/jringenieria/jrHome.png"),
-          title: "Home",
+          img: require("./src/assets/portfolio/ariascomercial/homeArias.png"),
         },
         {
-          img: require("./src/assets/portfolio/jringenieria/jrTienda.png"),
-          title: "Tienda",
+          img: require("./src/assets/portfolio/ariascomercial/homeArias2.png"),
         },
         {
-          img: require("./src/assets/portfolio/jringenieria/jrProductPage.png"),
-          title: "Product Page",
+          img: require("./src/assets/portfolio/ariascomercial/catalogoArias.png"),
         }
+
       ],
-      technologies: ["WordPress", "WooCommerce"],
+      technologies: ["Php", "Plugin Propio", "Woocommerce", "Javascript"],
       category: "WebSite",
-      github: "",
-      date: "May, 2016",
-      visit: "https://jringenieriayservicios.com/",
+      github: "https://ariascomercial.com.py/",
+      date: "Ago, 2021",
+      visit: "https://ariascomercial.com.py/",
       description:
-        "Sitio Web de mi emprendimiento, para venta de sistemas a medida, tambien incluye una tienda con Woocommerce, basado en Wordpress. Se detallan datos y gestion de mensajes via chat para Facebook Messenger y WhatsApp",
+        "Sitio web y Tienda Virtual Ecoomerce, con desarrollo de plugin propio para mostrar cuotas de productos y generar solicitudes de creditos, se incluye ademas Montaje, Adquisicion y puesta en marcha de servidores, dominios y certificados SSL",
     },
     {
       name: "www.saldopaypal.com.ar",
@@ -516,6 +522,33 @@ let info = {
         "Sitio web Monoproducto, para la adquisición del sistema gescob360, se detallan sus ventajas y funciones, se adjunta video del funcionamiento, se prepara formulario para recepción de interesados, contiene tabla de precios entre otros detalles",
     },
     {
+      name: "J.R. Ingeniería y Servicios",
+      title: "www.jringenieriayservicios.com - Website",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/jringenieria/jrHome.png"),
+          title: "Home",
+        },
+        {
+          img: require("./src/assets/portfolio/jringenieria/jrTienda.png"),
+          title: "Tienda",
+        },
+        {
+          img: require("./src/assets/portfolio/jringenieria/jrProductPage.png"),
+          title: "Product Page",
+        }
+      ],
+      technologies: ["WordPress", "WooCommerce"],
+      category: "WebSite",
+      github: "",
+      date: "May, 2016",
+      visit: "https://jringenieriayservicios.com/",
+      description:
+        "Sitio Web de mi emprendimiento, para venta de sistemas a medida, tambien incluye una tienda con Woocommerce, basado en Wordpress. Se detallan datos y gestion de mensajes via chat para Facebook Messenger y WhatsApp",
+    },
+
+
+    {
       name: "www.utcditaugua.eshost.com.ar",
       title: "www.utcditaugua.eshost.com.ar - Website",
       pictures: [
@@ -531,9 +564,9 @@ let info = {
       ],
       technologies: ["Php", "Javascript", "Ajax", "MySql"],
       category: "WebSite",
-      github: "https://utcditaugua.eshost.com/",
+      github: "http://utcditaugua.eshost.com.ar/",
       date: "Set, 2019",
-      visit: "https://utcditaugua.eshost.com/",
+      visit: "http://utcditaugua.eshost.com.ar/",
       description:
         "Sitio Web para inscripcion en la Semana del Saber 2019, Una vez inscripto, se gestiona desde el sistema EVENTIX para las acreditaciones a los demas eventos, para luego poder emitir el certificado correspondiente al evento asistido. El certificado se Genera con ingresar su Número de Documento.",
     },
