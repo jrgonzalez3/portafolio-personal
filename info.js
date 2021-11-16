@@ -8,7 +8,7 @@ let info = {
       blur: false,
     },
   },
-  description:" ¿< Que 
+  description:" ¿<b> Que hago ?</b>
 Empiezo creando la necesidad al cliente, le vendo la idea, lo armo y adapto a sus requerimientos, aclaro alcance y limitaciones, genero la estructura del proyecto, la bd normalizada y el modelado uml, lo grafico con basandome en técnicas ui/ux, lo segmento/encapsulo , lo analizo y lo programo en el lenguaje mas óptimo acorde al proyecto e idea, preparo versionado y entregables, configuro los servidores, hago deploy en el server, lo pruebo (con test unitarios y de integración) lo implemento bajo mejora continua (ci/cd), lo documento, discuto y defino cambios, actualizo la documentación, capacito y acompaño la implementacion, hago soporte, optimizo el rendimiento, agrego módulos, y reinicio el ciclo.
 
 
