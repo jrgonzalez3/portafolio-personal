@@ -9,7 +9,10 @@ let info = {
     },
   },
   description:
-    "Soy Desarrollador de Sistemas y Sitios Web, Ingeniero en Sistemas Informáticos, graduado en el año 2014, con más de 7 años de experiencia en desarrollo y más 10 años en el sector de Banca y Finanzas en el área comercial. He trabajado en varios proyectos Internacionales, para España, Venezuela, Brasil, Perú y Argentina. Tengo experiencia en forma remota con la gente de #Interfell - #WebImpacto y #LBSCanarias con contratos de tipo Full-time.<br><br>Desarrollé sistemas de gestión para casas de electrodomésticos con manejo de créditos, cobranzas, facturación, comisiones a vendedores entre otros. También he desarrollado sistemas para control de Horarios, Gestión de Impuestos, Gestión de Citas y Reservas. <br><br> Manejo Tecnologías y metodologías como Git, Jira, Scrum, Trello, MVC, POO, Laravel, YII, Codeigniter, CakePhp, Prestashop, Shopify, Vtex, WooCommerce, entre otros. Me apasiona programar ya sea en PHP, usando y aprendiendo cualquier tecnología.",
+    "
+
+
+Soy Desarrollador de Sistemas y Sitios Web, Ingeniero en Sistemas Informáticos, graduado en el año 2014, con más de 7 años de experiencia en desarrollo y más 10 años en el sector de Banca y Finanzas en el área comercial. He trabajado en varios proyectos Internacionales, para España, Venezuela, Brasil, Perú y Argentina. Tengo experiencia en forma remota con la gente de #Interfell - #WebImpacto y #LBSCanarias con contratos de tipo Full-time.<br><br>Desarrollé sistemas de gestión para casas de electrodomésticos con manejo de créditos, cobranzas, facturación, comisiones a vendedores entre otros. También he desarrollado sistemas para control de Horarios, Gestión de Impuestos, Gestión de Citas y Reservas. <br><br> Manejo Tecnologías y metodologías como Git, Jira, Scrum, Trello, MVC, POO, Laravel, YII, Codeigniter, CakePhp, Prestashop, Shopify, Vtex, WooCommerce, entre otros. Me apasiona programar ya sea en PHP, usando y aprendiendo cualquier tecnología.",
   links: {
     linkedin: "https://www.linkedin.com/in/justoramon/",
     github: "https://github.com/jrgonzalez3",
