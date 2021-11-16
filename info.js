@@ -8,8 +8,8 @@ let info = {
       blur: false,
     },
   },
-  description:
-    "
+  description:" ¿< Que 
+Empiezo creando la necesidad al cliente, le vendo la idea, lo armo y adapto a sus requerimientos, aclaro alcance y limitaciones, genero la estructura del proyecto, la bd normalizada y el modelado uml, lo grafico con basandome en técnicas ui/ux, lo segmento/encapsulo , lo analizo y lo programo en el lenguaje mas óptimo acorde al proyecto e idea, preparo versionado y entregables, configuro los servidores, hago deploy en el server, lo pruebo (con test unitarios y de integración) lo implemento bajo mejora continua (ci/cd), lo documento, discuto y defino cambios, actualizo la documentación, capacito y acompaño la implementacion, hago soporte, optimizo el rendimiento, agrego módulos, y reinicio el ciclo.
 
 
 Soy Desarrollador de Sistemas y Sitios Web, Ingeniero en Sistemas Informáticos, graduado en el año 2014, con más de 7 años de experiencia en desarrollo y más 10 años en el sector de Banca y Finanzas en el área comercial. He trabajado en varios proyectos Internacionales, para España, Venezuela, Brasil, Perú y Argentina. Tengo experiencia en forma remota con la gente de #Interfell - #WebImpacto y #LBSCanarias con contratos de tipo Full-time.<br><br>Desarrollé sistemas de gestión para casas de electrodomésticos con manejo de créditos, cobranzas, facturación, comisiones a vendedores entre otros. También he desarrollado sistemas para control de Horarios, Gestión de Impuestos, Gestión de Citas y Reservas. <br><br> Manejo Tecnologías y metodologías como Git, Jira, Scrum, Trello, MVC, POO, Laravel, YII, Codeigniter, CakePhp, Prestashop, Shopify, Vtex, WooCommerce, entre otros. Me apasiona programar ya sea en PHP, usando y aprendiendo cualquier tecnología.",
