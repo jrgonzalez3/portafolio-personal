@@ -34,7 +34,17 @@ let info = {
     },
     {
       name:
-        "Cert. Remote Work and Virtual Collaboration Certificate RWVCPC - Spanish",
+        "Certificacion - Scrum Foundation Professional Certificate SFPC",
+      place: "CertiProf",
+      date: "Jul, 2022",
+      degree: "Certificate Scrum Foundation",
+      gpa: "",
+      description: "Has successfully passed the certification exam",
+      skills: ["Jira", "Scrum", "Kanban", "Agile"],
+    },
+    {
+      name:
+        "Certificacion - Remote Work and Virtual Collaboration Certificate RWVCPC - Spanish",
       place: "CertiProf",
       date: "Apr, 2021",
       degree: "Certificate Remote Work",
@@ -91,6 +101,7 @@ let info = {
       skills: [
         "Windows Server",
         "Ubuntu Server",
+        "CentOS Server",
         "LAMP",
         "WAMP",
         "Apache",
@@ -100,13 +111,13 @@ let info = {
   ],
   experience: [
     {
-      name: "Datamex ",
+      name: "Datamex - Comermex - Confirma",
       place: "Asuncion Paraguay",
-      date: "Oct, 2021 - Ene, 2022 - Contrato Temporal",
+      date: "Oct, 2021 - Present",
       position: "Consultor TI - DevOps",
       description:
-        "Consultoria Externa, Gestion y manejo de Documentos",
-      skills: ["Codeigniter", "PHP", "Trello", "Normalizacion DB", "Xml"],
+        "Consultoria Externa, Gestion de Documentos Electronicos, Firmas Digitales, Facturación Electrónica Sifen, ",
+      skills: ["Codeigniter", "PHP", "Trello", "Normalizacion DB", "Xml", "FacturacionElectronica", "API RestFull & SOAP",],
     },
     {
       name: "WebImpacto - The eCommerce Agency(REMOTO)",
@@ -152,7 +163,7 @@ let info = {
       skills: ["Gestion de Proyectos", "UML", "Laravel", "Codeigniter", "TRELLO", "KANBAN"],
     },
     {
-      name: "J.R Ingeniería y Servicios",
+      name: "J.R. Ingeniería y Servicios",
       place: "Capiatá, Paraguay",
       date: "Jun, 2006 - Present",
       position: "C.E.O, Web Developer",
