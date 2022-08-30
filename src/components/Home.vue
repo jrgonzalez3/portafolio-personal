@@ -37,13 +37,13 @@
 						>
 							<i class="fab fa-github"></i>
 						</button>
-						<!-- <button
+					 <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('angellist')"
-              v-tooltip.bottom="'AngelList'"
+              @click="open('whatsapp')"
+              v-tooltip.bottom="'WhatsApp'"
             >
-              <i class="fab fa-angellist"></i>
-            </button> -->
+              <i class="fab fa-whatsapp"></i>
+            </button>
 						<button
 							class="btn btn-outline-secondary mx-2"
 							@click="open('resume')"
@@ -80,7 +80,7 @@ export default {
 			name: info.name,
 			linkedin: info.links.linkedin,
 			github: info.links.github,
-			angellist: info.links.angellist,
+			whatsapp: info.links.whatsapp,
 			resume: info.links.resume,
 		};
 	},
@@ -93,8 +93,8 @@ export default {
 				case "github":
 					window.open(this.github, "_blank");
 					break;
-				case "angellist":
-					window.open(this.angellist, "_blank");
+				case "whatsapp":
+					window.open(this.whatsapp, "_blank");
 					break;
 				case "resume":
 					window.open(this.resume, "_blank");
