@@ -1,7 +1,7 @@
 let info = {
   name: "Justo R. González Chávez",
   logo_name: "Justo González",
-  flat_picture: require("./src/assets/fotoperfil.png"),
+  flat_picture: require("./src/assets/fotoperfil.jpeg"),
   config: {
     use_cookies: true,
     navbar: {
@@ -15,93 +15,230 @@ let info = {
     github: "https://github.com/jrgonzalez3",
     resume: "https://github.com/jrgonzalez3/certificados/blob/master/historialCV/Curriculum_Ing_JustoG_Esp.pdf",
   },
-  education: [
+
+  "education": [
     {
-      name: "Certificación - Scrum Foundation Professional Certificate SFPC",
-      place: "CertiProf",
-      date: "Jul, 2022",
-      degree: "Certificate Scrum Foundation",
-      skills: ["Jira", "Scrum", "Kanban", "Agile"],
+      "name": "Máster en WordPress",
+      "place": "Udemy",
+      "date": "Agosto, 2024",
+      "degree": "Diploma Profesional",
+      "credentialLink": "Ver credencial"
     },
     {
-      name: "Certificación - Remote Work and Virtual Collaboration RWVCPC",
-      place: "CertiProf",
-      date: "Apr, 2021",
-      degree: "Certificate Remote Work",
-      skills: ["Jira", "Scrum", "Kanban", "Agile"],
+      "name": "Professional Diploma in Business English and Communications",
+      "place": "Udemy",
+      "date": "Febrero, 2024",
+      "degree": "Diploma Profesional",
+      "credentialLink": "Ver credencial"
     },
     {
-      name: "Curso Wordpress + Woocommerce",
-      place: "Udemy",
-      date: "Ago, 2020",
-      degree: "Certificado de Culminación Exitosa",
-      skills: ["Wordpress", "Woocommerce", "E-commerce", "PHP", "Mysql"],
+      "name": "Participación en charla sobre Factura Electrónica",
+      "place": "DNIT - SET",
+      "date": "Noviembre, 2023",
+      "credentialLink": "Ver credencial"
     },
     {
-      name: "Universidad Técnica de Comercialización y Desarrollo",
-      place: "Paraguay",
-      date: "Ene, 2008 - Feb, 2014",
-      degree: "Ingeniero en Sistemas Informáticos",
-      gpa: "4.0/4.5",
-      description:
-        "Aprendí bases sólidas de la informática, metodologías y buenas prácticas para la gestión de los datos e información del cliente",
-      skills: [
-        "UML",
-        "Software Engineering",
-        "Algorithms",
-        "Databases",
-        "Scrum",
-        "OS",
-      ],
+      "name": "Participación en charla IDU",
+      "place": "DNIT - SET",
+      "date": "Octubre, 2023",
+      "credentialLink": "Ver credencial"
     },
     {
-      name: "Curso E-Commerce",
-      place: "Google Actívate",
-      date: "Jan, 2019",
-      degree: "Certificado de Culminación Exitosa",
-      gpa: "",
-      description: "Culminación Exitosa del Curso E-Commerce",
-      skills: [
-        "Definición",
-        "Tipos",
-        "Logística y Distribución",
-        "Redes Sociales",
-        "Marketing y Publicidad Digital",
-      ],
+      "name": "Charla sobre IVA",
+      "place": "DNIT - SET",
+      "date": "Octubre, 2023",
+      "credentialLink": "Ver credencial"
     },
     {
-      name: "Fundamentos de la Programación Web",
-      place: "Udemy",
-      date: "Apr, 2019",
-      degree: "Certificado de Culminación Exitosa",
-      gpa: "",
-      description: "Culminación Exitosa del Fundamentos de la Programación Web",
-      skills: [
-        "Lenguajes",
-        "Frameworks",
-        "Bases de Datos",
-        "Tools y Softwares",
-      ],
+      "name": "Capacitación sobre Sumarios y Recursos",
+      "place": "DNIT - SET",
+      "date": "Noviembre, 2023",
+      "credentialLink": "Ver credencial"
     },
     {
-      name: "Manejo de Servidores Windows, Linux",
-      place: "Udemy",
-      date: "Apr, 2019",
-      degree: "Certificado de Culminación Exitosa",
-      gpa: "",
-      description:
-        "Culminación Exitosa del Manejo de Servidores Windows, Linux",
-      skills: [
-        "Windows Server",
-        "Ubuntu Server",
-        "CentOS Server",
-        "LAMP",
-        "WAMP",
-        "Apache",
-        "Nginx",
-      ],
+      "name": "Certificación - Ciberseguridad SNPP",
+      "place": "MITIC Paraguay",
+      "date": "Septiembre, 2022",
+      "degree": "Certificación Ciberseguridad de Sistemas",
+      "credentialId": "CertCiberseguridadDeSistemasSNPP80h",
+      "credentialLink": "Ver credencial"
     },
-  ],
+    {
+      "name": "Impuesto a la Renta Personal",
+      "place": "MITIC Paraguay",
+      "date": "Septiembre, 2022",
+      "degree": "Certificación Impuesto a la Renta Personal",
+      "credentialId": "impuestoAlaRentaPersonal",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Scrum Foundation Professional Certificate - SFPC™",
+      "place": "CertiProf",
+      "date": "Julio, 2022",
+      "expiration": "Julio, 2024",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Certificación - Scrum Foundation Professional Certificate SFPC",
+      "place": "CertiProf",
+      "date": "Julio, 2022",
+      "degree": "Certificate Scrum Foundation",
+      "skills": ["Jira", "Scrum", "Kanban", "Agile"]
+    },
+    {
+      "name": "Ciberseguridad de Sistemas",
+      "place": "SNPP",
+      "date": "2022",
+      "degree": "Certificado de Culminación Exitosa",
+      "gpa": "",
+      "description": "Ciberseguridad de Sistemas en SNPP",
+      "skills": ["Seguridad de la Información", "Estrategias", "Hacking Ético", "Análisis de Riesgos"]
+    },
+    {
+      "name": "Gestión de Redes Sociales CM",
+      "place": "MITIC Paraguay",
+      "date": "Diciembre, 2021",
+      "degree": "Certificación Gestión de Redes Sociales y CM",
+      "credentialId": "Gestion%20de%20Redes%20Sociales%20y%20CM",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Marketing Digital y Comercio Electrónico",
+      "place": "MITIC Paraguay",
+      "date": "Diciembre, 2021",
+      "degree": "Certificación Marketing Digital y Comercio Electrónico",
+      "credentialId": "marketingDigitalComercioElectronico",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Aplicación MultiIdioma en Laravel",
+      "place": "Udemy",
+      "date": "Agosto, 2021",
+      "degree": "Certificación Aplicación MultiIdioma en Laravel",
+      "credentialId": "UC-72e4ce81-c2b3-40c5-a960-a813e0b727d3",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Remote Work and Virtual Collaboration Certificate RWVCPC - Spanish",
+      "place": "CertiProf",
+      "date": "Abril, 2021",
+      "expiration": "Abril, 2023",
+      "credentialId": "60933660",
+      "credentialLink": "Ver credencial"
+    },
+
+    {
+      "name": "Certificación - Remote Work and Virtual Collaboration RWVCPC",
+      "place": "CertiProf",
+      "date": "Abril, 2021",
+      "degree": "Certificate Remote Work",
+      "skills": ["Jira", "Scrum", "Kanban", "Agile"]
+    },
+    {
+      "name": "Curso Wordpress + Woocommerce",
+      "place": "Udemy",
+      "date": "Agosto, 2020",
+      "degree": "Certificado de Culminación Exitosa",
+      "skills": ["Wordpress", "Woocommerce", "E-commerce", "PHP", "Mysql"]
+    },
+    {
+      "name": "Curso Wordpress + Woocommerce",
+      "place": "Udemy",
+      "date": "Agosto, 2020",
+      "degree": "Certificación Curso Wordpress + Woocommerce",
+      "credentialId": "UC-875b6ded-020d-4359-84fb-58163bb5c1fe",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "CRUD PHP y MYSQL",
+      "place": "Udemy",
+      "date": "Mayo, 2019",
+      "degree": "Certificación CRUD PHP y MYSQL",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Curso Online Instagram",
+      "place": "Udemy",
+      "date": "Mayo, 2019",
+      "degree": "Certificación Curso Online Instagram",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Manejo de Servidores Windows Server",
+      "place": "Udemy",
+      "date": "Mayo, 2019",
+      "degree": "Certificación Manejo de Servidores Windows Server",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Programación Visual Fox Pro",
+      "place": "Udemy",
+      "date": "Mayo, 2019",
+      "degree": "Certificación Programación Visual Fox Pro",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Visual Fox Pro 9",
+      "place": "Udemy",
+      "date": "Mayo, 2019",
+      "degree": "Certificación Visual Fox Pro 9",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Curso HTML a Web App",
+      "place": "Udemy",
+      "date": "Abril, 2019",
+      "degree": "Certificación Curso HTML a Web App",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Fundamentos de Programación Web",
+      "place": "Udemy",
+      "date": "Abril, 2019",
+      "degree": "Certificación Fundamentos de Programación Web",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Introduction to Facebook Pages for Businesses",
+      "place": "Udemy",
+      "date": "Abril, 2019",
+      "degree": "Certificación Introduction to Facebook Pages for Businesses",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Curso de Introducción al Desarrollo Web: HTML y CSS (1/2)",
+      "place": "Google Actívate",
+      "date": "Enero, 2019",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Curso E-Commerce",
+      "place": "Google Actívate",
+      "date": "Enero, 2019",
+      "credentialLink": "Ver credencial"
+    },
+    {
+      "name": "Curso E-Commerce",
+      "place": "Google Actívate",
+      "date": "Enero, 2019",
+      "degree": "Certificado de Culminación Exitosa",
+      "gpa": "",
+      "description": "Culminación Exitosa del Curso E-Commerce",
+      "skills": ["Definición", "Tipos", "Logística y Distribución", "Redes Sociales", "Marketing y Publicidad Digital"]
+    },
+    {
+      "name": "Universidad Técnica de Comercialización y Desarrollo",
+      "place": "Paraguay",
+      "date": "Enero, 2008 - Febrero, 2014",
+      "degree": "Ingeniero en Sistemas Informáticos",
+      "gpa": "4.0/4.5",
+      "description": "Aprendí bases sólidas de la informática, metodologías y buenas prácticas para la gestión de los datos e información del cliente",
+      "skills": ["UML", "Software Engineering", "Algorithms", "Databases", "Scrum", "OS"]
+    },
+
+
+  ]
+  ,
   experience: [
     {
       name: "Datamex - Comermex - Confirma",
@@ -112,10 +249,10 @@ let info = {
       skills: ["Codeigniter", "PHP", "Normalización DB", "API Rest", "SOAP"],
     },
     {
-      name: "saastech.cloud",
+      name: " Saastech.cloud",
       place: "Capiatá, Paraguay",
       date: "2021 - Present",
-      position: "Fundador",
+      position: "C.E.O & Founder ",
       description: "Emprendimiento enfocado en la comercialización de sistemas de gestión como Gestock360 con facturación electrónica. Desarrollo y comercialización de software en la nube.",
     },
     {

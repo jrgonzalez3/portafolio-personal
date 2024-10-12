@@ -10,14 +10,14 @@
 			data-aos-duration="1000"
 		>
 			<div class="row align-items-center">
-				<div class="col-xl-3 col-bg-3 col-md-3 col-sm-12 text-center">
-					<img :src="picture" />
+				<div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
+					<img :src="picture" class="img-fluid " />
 				</div>
-				<div class="col-xl-9 col-bg-9 col-md-9 col-sm-12 pt-3">
+				<div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-3">
 					<span
 						class="home-title"
 						:class="{ pgray: !nightMode, 'text-light': nightMode }"
-						>Hola!</span
+						>Bienvenid@, </span
 					>
 					<div>
 						<p v-html="description"></p>
