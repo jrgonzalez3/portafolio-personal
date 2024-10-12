@@ -8,7 +8,7 @@ let info = {
       blur: false,
     },
   },
-  description: "Soy Desarrollador de Sistemas y Sitios Web, Ingeniero en Sistemas Informáticos, graduado en el año 2014, con más de 8 años de experiencia en desarrollo y más 10 años en el sector de Banca y Finanzas en el área comercial. He trabajado en varios proyectos Internacionales, para España, Venezuela, Brasil, Perú y Argentina. Tengo experiencia en forma remota con #Interfell - #WebImpacto y #LBSCanarias con contratos de tipo Full-time.<br><br> Empiezo creando la necesidad al cliente, vendo la idea, armo y adapto a sus requerimientos, aclaro alcances y limitaciones, genero la estructura del proyecto, la bd normalizada y el modelado uml, lo grafico con basandome en técnicas UI/UX, lo segmento/encapsulo , lo analizo y lo programo en el lenguaje mas óptimo acorde al proyecto e idea, preparo versionado y entregables, configuro los servidores, hago deploy en el server, lo pruebo (con test unitarios y de integración) lo implemento bajo mejora continua (CI/CD), lo documento, discuto y defino cambios, actualizo la documentación, capacito y acompaño la implementacion, hago soporte, optimizo el rendimiento, agrego módulos, y reinicio el ciclo. <br/><br/> Creé sistemas de gestión para casas de electrodomésticos con manejo de créditos, cobranzas, facturación, comisiones a vendedores entre otros. También he desarrollado sistemas para control de Horarios, Gestión de Impuestos, Gestión de Citas y Reservas. <br><br> Desarrollé varias APIS, entre ellas la de Facturación Electrónica Sifen Paraguay y realicé enlaces con Empresas del Estado. Implementé proyectos de Firmas Electrónicas en Integraciones,  Manejo Tecnologías y metodologías como Git, Jira, Scrum, Trello, MVC, POO, Laravel, YII, Codeigniter, CakePhp, Prestashop, Shopify, Vtex, WooCommerce, entre otros. Me apasiona lo que hago. Contáctame y compruébalo.",
+  description: "Soy Desarrollador de Sistemas y Sitios Web, Ingeniero en Sistemas Informáticos, graduado en el año 2014, con más de 8 años de experiencia en desarrollo y más 10 años en el sector de Banca y Finanzas en el área comercial. He trabajado en varios proyectos Internacionales, para España, Venezuela, Brasil, Perú y Argentina. Tengo experiencia en forma remota con #Interfell - #WebImpacto y #LBSCanarias con contratos de tipo Full-time.<br><br> Empiezo creando la necesidad al cliente, vendo la idea, armo y adapto a sus requerimientos, aclaro alcances y limitaciones, genero la estructura del proyecto, la bd normalizada y el modelado uml, lo grafico con basandome en técnicas UI/UX, lo segmento/encapsulo , lo analizo y lo programo en el lenguaje mas óptimo acorde al proyecto e idea, preparo versionado y entregables, configuro los servidores, hago deploy en el server, lo pruebo (con test unitarios y de integración) lo implemento bajo mejora continua (CI/CD), lo documento, discuto y defino cambios, actualizo la documentación, capacito y acompaño la implementacion, hago soporte, optimizo el rendimiento, agrego módulos, y reinicio el ciclo. <br/><br/> Creé sistemas de gestión para casas de electrodomésticos con manejo de créditos en cuotas, cobranzas, facturación, comisiones a vendedores entre otros. También he desarrollado sistemas para control de Horarios, Gestión de Impuestos, Gestión de Citas y Reservas. <br><br> Desarrollé varias APIS, entre ellas la de Facturación Electrónica Sifen Paraguay y realicé enlaces con Empresas del Estado. Implementé proyectos de Firmas Electrónicas e Integraciones,  Manejo Tecnologías y metodologías como Git, Jira, Scrum, Trello, MVC, POO, Laravel, YII, Codeigniter, CakePhp, Prestashop, Shopify, Vtex, WooCommerce, entre otros. Me apasiona lo que hago.",
   links: {
     whatsapp: "https://wa.me/595981420987",
     linkedin: "https://www.linkedin.com/in/justoramon/",
@@ -16,6 +16,27 @@ let info = {
     resume: "https://github.com/jrgonzalez3/certificados/blob/master/historialCV/Curriculum_Ing_JustoG_Esp.pdf",
   },
   education: [
+    {
+      name: "Certificación - Scrum Foundation Professional Certificate SFPC",
+      place: "CertiProf",
+      date: "Jul, 2022",
+      degree: "Certificate Scrum Foundation",
+      skills: ["Jira", "Scrum", "Kanban", "Agile"],
+    },
+    {
+      name: "Certificación - Remote Work and Virtual Collaboration RWVCPC",
+      place: "CertiProf",
+      date: "Apr, 2021",
+      degree: "Certificate Remote Work",
+      skills: ["Jira", "Scrum", "Kanban", "Agile"],
+    },
+    {
+      name: "Curso Wordpress + Woocommerce",
+      place: "Udemy",
+      date: "Ago, 2020",
+      degree: "Certificado de Culminación Exitosa",
+      skills: ["Wordpress", "Woocommerce", "E-commerce", "PHP", "Mysql"],
+    },
     {
       name: "Universidad Técnica de Comercialización y Desarrollo",
       place: "Paraguay",
@@ -32,35 +53,6 @@ let info = {
         "Scrum",
         "OS",
       ],
-    },
-    {
-      name:
-        "Certificacion - Scrum Foundation Professional Certificate SFPC",
-      place: "CertiProf",
-      date: "Jul, 2022",
-      degree: "Certificate Scrum Foundation",
-      gpa: "",
-      description: "Has successfully passed the certification exam",
-      skills: ["Jira", "Scrum", "Kanban", "Agile"],
-    },
-    {
-      name:
-        "Certificacion - Remote Work and Virtual Collaboration Certificate RWVCPC - Spanish",
-      place: "CertiProf",
-      date: "Apr, 2021",
-      degree: "Certificate Remote Work",
-      gpa: "",
-      description: "Has successfully passed the certification exam",
-      skills: ["Jira", "Scrum", "Kanban", "Agile"],
-    },
-    {
-      name: "Curso Wordpress + Woocommerce",
-      place: "Udemy",
-      date: "Ago, 2020",
-      degree: "Certificado de Culminación Exitosa",
-      gpa: "",
-      description: "Culminación Exitosa del Curso Wordpress + Woocommerce",
-      skills: ["Wordpress", "Woocommerce", "E-commerce", "PHP", "Mysql"],
     },
     {
       name: "Curso E-Commerce",
@@ -116,9 +108,23 @@ let info = {
       place: "Asuncion Paraguay",
       date: "Oct, 2021 - Present",
       position: "Consultor TI - DevOps",
-      description:
-        "Consultoria Externa, Gestion de Documentos Electronicos, Firmas Digitales, Facturación Electrónica Sifen, ",
-      skills: ["Codeigniter", "PHP", "Trello", "Normalizacion DB", "Xml", "FacturacionElectronica", "API RestFull & SOAP",],
+      description: "Consultoría Externa, Gestión de Documentos Electrónicos, Firmas Digitales F1, F2, F3, Facturación Electrónica Sifen, desarrollo e integración de APIs.",
+      skills: ["Codeigniter", "PHP", "Normalización DB", "API Rest", "SOAP"],
+    },
+    {
+      name: "saastech.cloud",
+      place: "Capiatá, Paraguay",
+      date: "2021 - Present",
+      position: "Fundador",
+      description: "Emprendimiento enfocado en la comercialización de sistemas de gestión como Gestock360 con facturación electrónica. Desarrollo y comercialización de software en la nube.",
+    },
+    {
+      name: "Consultoría Informática",
+      place: "Capiatá, Paraguay",
+      date: "2021 - Present",
+      position: "Consultor",
+      description: "Consultoría informática con proyectos en Node.js, .NET, PostgreSQL, Pentaho, Proxmox, Docker, Portainer. Desarrollo de Webhook en Python, integraciones con bots de Telegram y WhatsApp.",
+      skills: ["Node.js", ".NET", "PostgreSQL", "Docker", "Portainer", "Webhook", "APIs"],
     },
     {
       name: "WebImpacto - The eCommerce Agency(REMOTO)",
@@ -162,26 +168,6 @@ let info = {
       description:
         "Realizo la tutoría de Tesis, fuí miembro de mesa Examinadora de Tesis para Ingeniería en Sistemas, Año 2020, UTCD CENTRAL e imparto clases particulares para la realización y defensa de TESIS.",
       skills: ["Gestion de Proyectos", "UML", "Laravel", "Codeigniter", "TRELLO", "KANBAN"],
-    },
-    {
-      name: "J.R. Ingeniería y Servicios",
-      place: "Capiatá, Paraguay",
-      date: "Jun, 2006 - Present",
-      position: "C.E.O, Web Developer",
-      description:
-        "Creé el emprendimiento, junto con el WebSite, para dar a conocer Productos y Servicios en materia de Software, desarrollo de Sistemas y Consultorías.",
-      skills: [
-        "Wordpress",
-        "Php",
-        "MySql",
-        "Javscript",
-        "Bootstrap",
-        "Trello",
-        "Moddle",
-        "CodeIgniter",
-        "Yii",
-        "CakePhp"
-      ],
     },
     {
       name: "Banco Familiar SAECA",
@@ -247,7 +233,7 @@ let info = {
   skills: [
     {
       title: "languages and databases",
-      info: ["PHP", "Javascript", "TypeScript", "MySql", "MongoDB(Basic)"],
+      info: ["PHP", "Python", ".Net", "Javascript", "PostgreSql", "MySql", "MongoDB(Basic)"],
       icon: "fa fa-code",
     },
     {
@@ -257,6 +243,7 @@ let info = {
         "CodeIgniter",
         "YII2",
         "CakePhp",
+        "Pentaho",
         "Shopify",
         "Vtex",
         "Prestashop",
@@ -270,10 +257,10 @@ let info = {
     {
       title: "web technologies",
       info: [
-        "Vue(Basic)",
-        "Angular(Basic)",
-        "React(Basic)",
-        "Node(Basic)",
+        "Vue",
+        "Angular",
+        "React",
+        "Node",
         "Bootstrap",
         "HTML",
         "CSS",
@@ -305,6 +292,7 @@ let info = {
         "Android",
         "Heroku",
         "Firebase",
+        "Digital Ocean",
         "VsCode",
         "AWS S3",
       ],
@@ -328,30 +316,6 @@ let info = {
   ],
   portfolio: [
     {
-      name: "Sistema Gescob",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/gescob/logoGescob.png"),
-        },
-        {
-          img: require("./src/assets/portfolio/gescob/gescobEscritorio.png"),
-        },
-        {
-          img: require("./src/assets/portfolio/gescob/gescobProductos.png"),
-        },
-        {
-          img: require("./src/assets/portfolio/gescob/gescobVenta.png"),
-        },
-      ],
-      technologies: ["Php", "MySql", "CSS3", "Bootstrap", "JQuery"],
-      category: "Sistema de Gestión y Facturación",
-      date: "Jan, 2018 - Present",
-      github: "https://gescob.online/gescob_base/login.php",
-      visit: "https://gescob.online/",
-      description:
-        "Sistema de Gestion para casas de Electrodomésticos y negocios de venta al contado y crédito, Gestiona los productos, compras, ventas, clientes, proveedores, empleados, usuarios entre otros. Emite Facturas preimpresas, tickets, notas de ventas, presupuestos, recibos, pagarés, remisiones, además de informes de comisiones a vendedores, gestion integral de morosidad, ventas a créditos, cuentas por pagar entre otros. <BR><BR> Cuenta con una sencilla interfaz y bastante ágil de manejar. El sistema se encuentra en producción y lo están utilizando varios clientes, en su modalidad SAAS (pago mensual). <BR><BR> Para realizar pruebas de la demo, utilice las credenciales: usuario:demo | clave: demo123",
-    },
-    {
       name: "Sistema Gestock360",
       pictures: [
         {
@@ -373,11 +337,36 @@ let info = {
       technologies: ["Php", "Codeigniter 3", "MySql", "CSS3", "Bootstrap", "JQuery"],
       category: "Sistema de Gestión y Facturación",
       date: "Jan, 2018- Present",
-      github: "https://gescob.online/gestock_base/",
-      visit: "https://jringenieriayservicios.com/",
+      github: "https://nube.gescob.online",
+      visit: "https://gescob.online/",
       description:
-        "Sistema de Gestion para Locales Comerciales, Gestiona los productos, compras, ventas, clientes, proveedores, empleados, usuarios entre otros. Emite Facturas preimpresas, tickets, notas de ventas,además de informes de compras y ventas. <BR><BR> Cuenta con una sencilla interfaz y bastante ágil de manejar. El sistema se encuentra en producción y lo están utilizando varios clientes, en su modalidad SAAS (pago mensual). <BR><BR> Para realizar pruebas de la demo, utilice las credenciales: usuario:cajero | clave: cajero123",
+        "Sistema de Gestion para Locales Comerciales, Gestiona los productos, compras, ventas, clientes, proveedores, empleados, usuarios entre otros. Emite Facturas Electrónicas, preimpresas, tickets, notas de ventas,además de informes de compras y ventas. <BR><BR> Cuenta con una sencilla interfaz y bastante ágil de manejar. El sistema se encuentra en producción y lo están utilizando varios clientes, en su modalidad SAAS (pago mensual). <BR>",
     },
+    {
+      name: "Sistema Gescob",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/gescob/logoGescob.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gescob/gescobEscritorio.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gescob/gescobProductos.png"),
+        },
+        {
+          img: require("./src/assets/portfolio/gescob/gescobVenta.png"),
+        },
+      ],
+      technologies: ["Php", "MySql", "CSS3", "Bootstrap", "JQuery"],
+      category: "Sistema de Gestión y Facturación",
+      date: "Jan, 2018 - Present",
+      github: "https://gescob.online/gescob_arias/index.php",
+      visit: "https://gescob.online/",
+      description:
+        "Sistema de Gestion para casas de Electrodomésticos y negocios de venta al contado y crédito, Gestiona los productos, compras, ventas, clientes, proveedores, empleados, usuarios entre otros. Emite Facturas preimpresas, tickets, notas de ventas, presupuestos, recibos, pagarés, remisiones, además de informes de comisiones a vendedores, gestion integral de morosidad, ventas a créditos, cuentas por pagar entre otros. <BR><BR> Cuenta con una sencilla interfaz y bastante ágil de manejar. El sistema se encuentra en producción y lo están utilizando varios clientes, en su modalidad SAAS (pago mensual). <BR>",
+    },
+
     {
       name: "SysPres",
       pictures: [
@@ -397,8 +386,8 @@ let info = {
       technologies: ["PHP", "Javascript", "Html5", "JSon", "Css3"],
       category: "Generación de Presupuestos",
       date: "Sep, 2018 - Dec, 2019",
-      github: "http://syspres.eshost.com.ar/",
-      visit: "http://syspres.eshost.com.ar/",
+      github: "#",
+      visit: "#",
       description:
         "Syspres es un sistema para generar Presupuestos o cotizaciones a clientes, se calculan los trabajos por tiempo en horas, dias, semanas, meses y se puede agregar características opcionales, es configurable las firmas y contenidos varios, se genera en pdf para enviar al cliente. <br><br> Para ingresar a la demo simplemente cree una cuenta con su E-mail",
     },
@@ -421,8 +410,8 @@ let info = {
       technologies: ["PHP", "Javascript", "Html5", "JSon", "CodeIgniter 3", "Css3"],
       category: "Gestión de Impuestos",
       date: "Sep, 2018",
-      github: "http://ivas.eshost.com.ar/",
-      visit: "http://ivas.eshost.com.ar/",
+      github: "#",
+      visit: "#",
       description:
         "Ivas es un sistema que desarrollé usando codeigniter 3, para la gestión de mis movimientos y control de mis impuestos, tiene Crud de Contribuyentes, empresas y maneja los movimientos de compra y venta de cada contribuyente, calcula en forma automática el impuesto de cada ítem. <br><br> Para ingresar a la demo use estas credenciales, Usuario: admin  Clave:demo",
     },
@@ -445,8 +434,8 @@ let info = {
       technologies: ["PHP", "Javascript", "Html5", "JSon", "Css3"],
       category: "Gestión de Tickets de Soporte",
       date: "Sep, 2016",
-      github: "http://soportick.eshost.com.ar/",
-      visit: "http://soportick.eshost.com.ar/",
+      github: "#",
+      visit: "#",
       description:
         "Soportick Gestiona tickets de soporte que generan los clientes si tienen inconvenientes o alguna informacion de los sistemas que utilizan, con ello, se pueden crear proyectos, informar errores, bugs, novedades, ideas y controlar el progreso de los mismos. <br><br> Para ingresar a la demo use estas credenciales, Usuario: admin  Clave:admin",
     },
@@ -469,8 +458,8 @@ let info = {
       technologies: ["PHP", "Javascript", "Html5", "JSon", "CodeIgniter 3", "Css3"],
       category: "Gestión de Eventos y Certificados",
       date: "Sep, 2016",
-      github: "http://eventix.eshost.com.ar/",
-      visit: "http://eventix.eshost.com.ar/",
+      github: "#",
+      visit: "#",
       description:
         "Eventix Gestiona Eventos y Acreditaciones de Alumnos, Trabaja con el Sitio Web www.utcditaugua.eshost.com.ar donde los alumnos se inscriben, luego se acreditan al presentarse en los eventos, al culminar tal evento, los mismos pueden generar su Certificado con su Nombre y Apellido, junto con las horas que duró el Evento y el nombre del Mismo.<br><br> Para ingresar a la demo use estas credenciales, Usuario: superadmin  Clave:admin123",
     },
@@ -542,8 +531,8 @@ let info = {
         "Sitio web Monoproducto, para la adquisición del sistema gescob360, se detallan sus ventajas y funciones, se adjunta video del funcionamiento, se prepara formulario para recepción de interesados, contiene tabla de precios entre otros detalles",
     },
     {
-      name: "J.R. Ingeniería y Servicios",
-      title: "www.jringenieriayservicios.com - Website",
+      name: "SAASTECH CLOUD",
+      title: "www.saastech.cloud - Website",
       pictures: [
         {
           img: require("./src/assets/portfolio/jringenieria/jrHome.png"),
@@ -562,7 +551,7 @@ let info = {
       category: "WebSite",
       github: "",
       date: "May, 2016",
-      visit: "https://jringenieriayservicios.com/",
+      visit: "https://saastech.cloud/",
       description:
         "Sitio Web de mi emprendimiento, para venta de sistemas a medida, tambien incluye una tienda con Woocommerce, basado en Wordpress. Se detallan datos y gestion de mensajes via chat para Facebook Messenger y WhatsApp",
     },
@@ -584,9 +573,9 @@ let info = {
       ],
       technologies: ["Php", "Javascript", "Ajax", "MySql"],
       category: "WebSite",
-      github: "http://utcditaugua.eshost.com.ar/",
+      github: "#",
       date: "Set, 2019",
-      visit: "http://utcditaugua.eshost.com.ar/",
+      visit: "#",
       description:
         "Sitio Web para inscripcion en la Semana del Saber 2019, Una vez inscripto, se gestiona desde el sistema EVENTIX para las acreditaciones a los demas eventos, para luego poder emitir el certificado correspondiente al evento asistido. El certificado se Genera con ingresar su Número de Documento.",
     },
