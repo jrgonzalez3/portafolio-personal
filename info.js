@@ -8,14 +8,13 @@ let info = {
       blur: false,
     },
   },
-  description: "Soy Desarrollador de Sistemas y Sitios Web, Ingeniero en Sistemas Informáticos, graduado en el año 2014, con más de 8 años de experiencia en desarrollo y más 10 años en el sector de Banca y Finanzas en el área comercial. He trabajado en varios proyectos Internacionales, para España, Venezuela, Brasil, Perú y Argentina. Tengo experiencia en forma remota con #Interfell - #WebImpacto y #LBSCanarias con contratos de tipo Full-time.<br><br> Empiezo creando la necesidad al cliente, vendo la idea, armo y adapto a sus requerimientos, aclaro alcances y limitaciones, genero la estructura del proyecto, la bd normalizada y el modelado uml, lo grafico con basandome en técnicas UI/UX, lo segmento/encapsulo , lo analizo y lo programo en el lenguaje mas óptimo acorde al proyecto e idea, preparo versionado y entregables, configuro los servidores, hago deploy en el server, lo pruebo (con test unitarios y de integración) lo implemento bajo mejora continua (CI/CD), lo documento, discuto y defino cambios, actualizo la documentación, capacito y acompaño la implementacion, hago soporte, optimizo el rendimiento, agrego módulos, y reinicio el ciclo. <br/><br/> Creé sistemas de gestión para casas de electrodomésticos con manejo de créditos en cuotas, cobranzas, facturación, comisiones a vendedores entre otros. También he desarrollado sistemas para control de Horarios, Gestión de Impuestos, Gestión de Citas y Reservas. <br><br> Desarrollé varias APIS, entre ellas la de Facturación Electrónica Sifen Paraguay y realicé enlaces con Empresas del Estado. Implementé proyectos de Firmas Electrónicas e Integraciones,  Manejo Tecnologías y metodologías como Git, Jira, Scrum, Trello, MVC, POO, Laravel, YII, Codeigniter, CakePhp, Prestashop, Shopify, Vtex, WooCommerce, entre otros. Me apasiona lo que hago.",
-  links: {
-    whatsapp: "https://wa.me/595981420987",
-    linkedin: "https://www.linkedin.com/in/justoramon/",
-    github: "https://github.com/jrgonzalez3",
-    resume: "https://github.com/jrgonzalez3/certificados/blob/master/historialCV/Curriculum_Ing_JustoG_Esp.pdf",
+  "description": "Soy Consultor en Datamex y Desarrollador de Sistemas Web en Saastech, con más de 8 años de experiencia en desarrollo y más de 10 años en el sector Banca y Finanzas, especializado en el área informático-comercial. Ingeniero en Sistemas Informáticos, graduado en 2014, he trabajado en proyectos internacionales para España, Venezuela, Brasil, Perú y Argentina, con experiencia en trabajos remotos para empresas como Interfell, WebImpacto, LBS Canarias y Personal Brasil, bajo contratos Full-time. Me especializo en gestionar todo el ciclo de vida del desarrollo de software: desde la identificación de necesidades y generación de ideas hasta la definición de alcances, creación de la arquitectura del proyecto, diseño de bases de datos y desarrollo con las mejores prácticas en UI/UX. También gestiono la infraestructura, seguridad y despliegue de soluciones, incluyendo la implementación continua (CI/CD), capacitación de equipos, documentación, soporte y optimización de sistemas. He creado sistemas de gestión comercial, financiera, de créditos, cobranzas, facturación y comisiones, así como sistemas de control de horarios, gestión de impuestos y reservas. Además, he desarrollado APIs, webhooks, incluyendo la Facturación Electrónica Sifen, implementado soluciones de firma electrónica y sellos de tiempo cualificado, he realizado integraciones con organismos del Estado. Manejo Git, Jira, Scrum, Laravel, CodeIgniter, WooCommerce, Shopify, Prestashop, PostgreSQL, Node.js, Python, SOAP, REST y otros. Me apasiona la creación de soluciones tecnológicas efectivas y bien diseñadas.",
+  "links": {
+    "whatsapp": "https://wa.me/595981420987",
+    "linkedin": "https://www.linkedin.com/in/justoramon/",
+    "github": "https://github.com/jrgonzalez3",
+    "resume": "https://github.com/jrgonzalez3/certificados/blob/master/historialCV/cv_JustoGonzalez_OCT_2024.pdf"
   },
-
   "education": [
     {
       "name": "Máster en WordPress",
